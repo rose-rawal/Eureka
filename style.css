@@ -91,3 +91,9 @@
     width: 185px;
     top: -23px;
 }
+.carousel-item img{
+    opacity: 0.4;
+}
+.caro{
+    margin-top: 30px;
+}
