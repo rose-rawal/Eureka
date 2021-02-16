@@ -1,0 +1,93 @@
+.dark{
+    background-color: black!important;
+    font-family: 'Truculenta', 'Ballet', sans-serif ,cursive;
+}
+.navbar-brand{
+    font-family: 'Ballet',cursive;
+    font-size: 50px!important;
+}
+.transi{
+    transition: 0.5s ease-in-out;
+}
+.navbar-brand:hover{
+    color: thistle!important;
+}
+.bg-dark{
+    background-color: rgb(37, 36, 36)!important;
+}
+.navbar-nav{
+    margin: 15px auto 0 auto!important;
+    gap: 30px;
+    font-size: 20px;
+}
+.dropdown-menu, .dropdown-item{
+    background-color: black!important;
+    color: white!important;
+}
+.dropdown-item:hover{
+    color: thistle!important;
+    padding-left: 30px;
+    background-color: rgb(49, 45, 45)!important;
+}
+.fa{
+    color: white;
+    font-size: 20px;
+    padding-left: 20px;
+    margin-top: 40%;
+   
+}
+.relative .fa:not(.fa-search):hover{
+    color: thistle;
+    transform: scale(1.2);
+}
+.cli{
+    color: thistle;
+    font-size: 12px;
+    background-color: black;
+    margin-top: 11px;
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+.cli a{
+    text-decoration: none;
+    color: thistle;
+}
+.cli:hover a{
+    color: black;
+    font-weight: bold;
+}
+.cli:hover{
+    
+    background-color: thistle;
+}
+.relative{
+    position: relative;
+}
+.search{
+    position: absolute;
+    top: -24px;
+    left: -74px;
+}
+.search input{
+    width:180px;
+}
+.search button{
+    color: black;
+    background-color: thistle;
+    padding:0;
+    width: 30px;
+    height: 30px;
+}
+.absolute{
+    position: absolute;
+    top: -33px;
+    left: 180px;
+}
+.relative .fa-search:hover{
+    color: thistle;
+}
+.abtwo{
+    left: 0;
+    width: 185px;
+    top: -23px;
+}
