@@ -97,3 +97,40 @@
 .caro{
     margin-top: 30px;
 }
+.carousel-item {
+    height: 80vh;
+    position: relative;
+}
+.d-none{
+    position: absolute;
+    top: 35%;
+}
+.d-none h5{
+    position: relative;
+    display: block;
+    font-size: 60px;
+    font-family: 'Reggae One',cursive;
+}
+.d-none h5:hover{
+    color: thistle;
+}
+.d-none p{
+    font-size: 30px;
+    padding: auto 60px;
+}
+.d-none h5::after{
+    content: " ";
+    height: 3px;
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    top: 75px;
+    left: 0;
+    transform: scaleX(0);
+    transition: 0.3s ease-in-out;
+    transform-origin: left;
+}
+.d-none h5:hover::after{
+    transform: scaleX(1);
+    transform-origin: right;
+}
