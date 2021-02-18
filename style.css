@@ -1,6 +1,9 @@
 .dark{
     background-color: black!important;
+}
+body{
     font-family: 'Truculenta', 'Ballet', sans-serif ,cursive;
+    background-color: white;
 }
 .navbar-brand{
     font-family: 'Ballet',cursive;
@@ -215,3 +218,4 @@
     background-color: rgb(87, 80, 80);
     border-radius: 30px;
 }
+
