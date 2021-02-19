@@ -218,4 +218,22 @@ body{
     background-color: rgb(87, 80, 80);
     border-radius: 30px;
 }
-
+.top{
+    position:absolute;
+    top: 6px;
+    left: -20px;
+    color: White;
+    padding: 1px 30px;
+    background-color: rgb(184, 15, 15);
+    z-index: 999;
+    transform: rotate(-40deg);
+    font-weight: 500;
+    transition: 0.5s ease-in-out;
+}
+.over{
+    overflow: hidden;
+}
+.over:hover .top{
+    background-color: rgb(240, 193, 193);
+    color: rgb(75, 58, 58);
+}
